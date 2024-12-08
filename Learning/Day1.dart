@@ -22,4 +22,20 @@ void main(){
   //chuyen doi lam tron n (2 so) chu so sau dau ","
   var height = double.parse(stdin.readLineSync()!);
   print("Chieu cao: ${height.toStringAsFixed(2)}");
+
+  //kieu du lieu List
+  var friends = ['A', 'B', 'C'];
+  print("Phan tu dau: ${friends.first}");
+  //<ten list>.<phuong thuc can thuc thi tren list>
+  //them phan tu vao cuoi
+  friends.add("D");
+  print(friends);
+  friends.reversed;
+  //tao list kieu du lieu object (khong nen dung)
+  var abc = [];
+  abc.add("value");
+  abc.add(123);
+  abc.add(true);
+  //nen tao list co kieu du lieu cu the
+  var def = <String>[];
 }

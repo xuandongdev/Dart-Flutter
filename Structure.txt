@@ -1,0 +1,11 @@
+1. folder lib (quan trọng): file main.dart, ex.dart,... dùng để chứa các src code logic xử lý, các packed quản lý...
+
+2. folder android, ios: dùng để code native (ít dùng) những thứ Flutter không hỗ trợ
+
+3. folder test: dùng viết các code test
+
+4. gitignore: bỏ qua những thư mục không post code lên GitHub, GitLab
+
+5. pubspec (quan trọngg): config appname, description, version, dependencies,...
+
+6. analysis_options: đặt rules code, coding convention cần lưu ý
